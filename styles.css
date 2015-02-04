@@ -1,0 +1,88 @@
+body {
+	margin: auto;
+	width: 970px;
+	font-family: Tahoma;
+	color: black;
+}
+
+h1 {
+	margin: 10px;
+	font-size: 35px;
+	font-weight: normal;
+}
+
+p {
+	margin: 10px;
+	font-size: 20px;
+}
+
+.article {
+	margin: 10px;
+}
+
+.article .image {
+	padding: 10px 10px 10px 0;
+	float:left;
+	width: 300px;
+}
+
+.article .info {
+	display: inline-block;
+	padding: 10px;
+	width: 605px;
+}
+
+.data {
+	clear:left;
+	padding: 10px;
+}
+
+.data input {
+	margin: 10px 10px 10px 0;
+	width: 810px;
+	height: 120px;
+}
+
+.data button {
+	margin: 10px;
+	width: 100px;
+	height: 120px;
+}
+
+.comments {
+	padding: 10px;
+}
+
+.comments table {
+	width: 100%;
+}
+
+.comments table .text{
+	width: 70%;
+}
+
+.comments table thead {
+	background-color: #cccccc;
+}
+
+.comments table th,
+.comments table td {
+	padding: 10px;
+	font-weight: normal;
+	text-align: left;
+}
+
+.comments table tbody tr:nth-child(even) {
+	background: #ececec;
+}
+
+table{
+	border-spacing: 0;
+	border-collapse: collapse;
+}
+th{
+	border: 1px solid black;
+}
+td{
+	border: 1px solid black;
+}
