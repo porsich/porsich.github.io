@@ -119,7 +119,7 @@ angular.module('task13App')
 
                 if (!!$scope.episodPlayer) {
                   $scope.anotherEpisodPlayer.push({
-                    player: data.response[i].player
+                    player: data.response[i].player.replace('http://', 'https://')
                   });
                 } else {
                   $scope.episodPlayer = data.response[i].player.replace('http://', 'https://');
